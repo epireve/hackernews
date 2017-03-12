@@ -21,9 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b74-Q9-xo6">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b74-Q9-xo6">
                                 <rect key="frame" x="-6" y="0.0" width="326" height="568"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7S8-Lb-7QK">
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="7S8-Lb-7QK">
                                     <rect key="frame" x="0.0" y="0.0" width="326" height="568"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
@@ -128,11 +129,13 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="9xy-MY-HSU" firstAttribute="leading" secondItem="IKj-mp-EVD" secondAttribute="leading" constant="15" id="9gx-My-ZKY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="280" id="CYN-Cf-Pc9"/>
                                     <constraint firstItem="9xy-MY-HSU" firstAttribute="leading" secondItem="IKj-mp-EVD" secondAttribute="leading" constant="15" id="DFo-rr-FGf"/>
                                     <constraint firstAttribute="height" constant="280" id="Ffn-b5-ZNF"/>
                                     <constraint firstAttribute="trailing" secondItem="9xy-MY-HSU" secondAttribute="trailing" constant="15" id="Gi7-UH-O5O"/>
                                     <constraint firstAttribute="trailing" secondItem="9xy-MY-HSU" secondAttribute="trailing" constant="15" id="WFH-SB-Ibw"/>
                                     <constraint firstAttribute="bottom" secondItem="9xy-MY-HSU" secondAttribute="bottom" constant="15" id="XYv-VP-5Re"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="Xpd-ay-CFB"/>
                                     <constraint firstAttribute="width" constant="280" id="p2b-UQ-A0Q"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -145,12 +148,8 @@
                             </view>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="IKj-mp-EVD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3oK-KE-Pxw"/>
-                            <constraint firstItem="b74-Q9-xo6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PNW-Lx-Z8O"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="b74-Q9-xo6" secondAttribute="bottom" id="gSz-fv-eBP"/>
-                            <constraint firstItem="b74-Q9-xo6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="niy-6o-xcJ"/>
-                            <constraint firstItem="IKj-mp-EVD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vXV-7G-SNe"/>
-                            <constraint firstAttribute="trailing" secondItem="b74-Q9-xo6" secondAttribute="trailing" id="xEI-Za-3cP"/>
+                            <constraint firstItem="IKj-mp-EVD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fap-cC-PCm"/>
+                            <constraint firstItem="IKj-mp-EVD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QJ4-9J-Zkh"/>
                         </constraints>
                     </view>
                 </viewController>
