@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C398656984AD1BEB0DB410C33CD02DA466D7744B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C398656984AD1BEB0DB410C33CD02DA466D7744B" : 9223372036854775807,
+    "71F5D8D885CFF6BD7151066D7BFF25CC48A5235E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FABDBCA2-433A-4151-A512-9AF0EAA1B758",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C398656984AD1BEB0DB410C33CD02DA466D7744B" : "dev.local\/",
+    "71F5D8D885CFF6BD7151066D7BFF25CC48A5235E" : "dev.local\/carboniOS\/carbon\/carbon\/Spring\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "carbon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "carboniOS\/carbon\/carbon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MengTo\/Spring.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71F5D8D885CFF6BD7151066D7BFF25CC48A5235E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/epireve\/otl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C398656984AD1BEB0DB410C33CD02DA466D7744B"
+    }
+  ]
+}
